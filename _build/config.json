@@ -1,0 +1,49 @@
+{
+  "description": "Alex Omberg writes clear, rigorous introductions to the thinkers, movements and questions of Western philosophy. Author of the Western Philosophy Series.",
+  "home_lead": "Clear, rigorous introductions to the thinkers, movements and questions of Western philosophy, from ancient Athens to the twentieth century. Written for curious readers with no prior background, and for those returning to ideas they half remember.",
+  "newsletter_blurb": "Occasional letters on the ideas behind the books, and a note when a new volume appears.",
+  "books_lead": "Each volume is a complete introduction, written to be read on its own and arranged in series that build on one another.",
+  "books_description": "Books by Alex Omberg: introductions to the thinkers, movements and questions of Western philosophy.",
+  "about_description": "About Alex Omberg and the Western Philosophy Series: how each volume is built and who the books are for.",
+  "contact_lead": "For questions about a volume, corrections, permissions and review copies.",
+  "profiles": [
+    {
+      "label": "Amazon",
+      "display": "Author page",
+      "url": "https://www.amazon.com/author/alexomberg"
+    },
+    {
+      "label": "Substack",
+      "display": "@alexomberg",
+      "url": "https://substack.com/@alexomberg"
+    },
+    {
+      "label": "Threads",
+      "display": "@alexomberg",
+      "url": "https://www.threads.com/@alexomberg"
+    },
+    {
+      "label": "Instagram",
+      "display": "@alexomberg",
+      "url": "https://www.instagram.com/alexomberg/"
+    }
+  ],
+  "series": [
+    {
+      "name": "Western Philosophy Series",
+      "blurb": "The individual minds who shaped how the West thinks about knowledge, power, freedom and the good life, one figure at a time."
+    },
+    {
+      "name": "The Stoic & Ancient Life",
+      "blurb": "Ancient thinkers and schools who treated wisdom as something practised daily, and whose questions about hardship, desire and integrity remain pressing."
+    },
+    {
+      "name": "Beginner's Guide to Philosophical Movements",
+      "blurb": "The traditions that connect the great thinkers, and the fields philosophy divides into: their origins, core ideas, key figures and lasting influence."
+    },
+    {
+      "name": "The Foundations of Philosophy",
+      "blurb": "The deepest questions human beings have asked, with the competing answers set side by side."
+    }
+  ]
+}

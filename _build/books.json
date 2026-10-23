@@ -1,0 +1,1173 @@
+[
+ {
+  "slug": "plato",
+  "title": "Plato",
+  "subtitle": "A Beginner's Guide to the Core Ideas and Modern Relevance of Plato, Including the Theory of Forms, the Allegory of the Cave, and the Republic",
+  "series": "Western Philosophy Series",
+  "order": 0,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0FLZ9XM9P"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=uoeBEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/plato.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "augustine-of-hippo",
+  "title": "Augustine of Hippo",
+  "subtitle": "The Greatest Christian Philosopher and His Restless Search for Truth, Including the Confessions, the Problem of Evil, Original Sin, and the City of God",
+  "series": "Western Philosophy Series",
+  "order": 1,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX35XJ46"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDa8Rqx0M"
+   }
+  ],
+  "cover": "/assets/covers/augustine-of-hippo.jpg",
+  "cover_h": 180,
+  "featured": true
+ },
+ {
+  "slug": "averroes",
+  "title": "Averroes",
+  "subtitle": "A Beginner's Guide to the Great Islamic Philosopher and His Harmonization of Aristotelian Philosophy with Islamic Theology, Including His Defense of Reason",
+  "series": "Western Philosophy Series",
+  "order": 2,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GM1B1LVX"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEAaTQkNAM"
+   }
+  ]
+ },
+ {
+  "slug": "thomas-aquinas",
+  "title": "Thomas Aquinas",
+  "subtitle": "A Beginner's Guide to the Greatest Medieval Christian Philosopher and His Synthesis of Aristotelian Philosophy with Catholic Theology, Including the Five Ways and Natural Law",
+  "series": "Western Philosophy Series",
+  "order": 3,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0FG362T2V"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=8RCzEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "thomas-hobbes",
+  "title": "Thomas Hobbes",
+  "subtitle": "The Philosopher of Power and His Unflinching Vision of Human Nature, the State of War, and the Social Contract, Including Leviathan and the Foundations of Modern Political Thought",
+  "series": "Western Philosophy Series",
+  "order": 4,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX33164F"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6jV_N9M"
+   }
+  ],
+  "cover": "/assets/covers/thomas-hobbes.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "baruch-spinoza",
+  "title": "Baruch Spinoza",
+  "subtitle": "The God-Intoxicated Philosopher and His Radical Vision of Nature, Freedom, and the Unity of All Things, Including the Ethics and the Path to Human Blessedness",
+  "series": "Western Philosophy Series",
+  "order": 5,
+  "links": [
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=RhHPEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "george-berkeley",
+  "title": "George Berkeley",
+  "subtitle": "A Beginner's Guide to the Irish Bishop and Empiricist Who Argued That To Be Is To Be Perceived and His Radical Idealism That Denies the Existence of Matter",
+  "series": "Western Philosophy Series",
+  "order": 6,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GN9TNBC9"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=r1HBEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "montesquieu",
+  "title": "Montesquieu",
+  "subtitle": "The Philosopher of Liberty and His Theory of the Separation of Powers, the Spirit of Laws, and the Art of Constitutional Government That Shaped the Modern World",
+  "series": "Western Philosophy Series",
+  "order": 7,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GYGKHL76"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=9azTEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "voltaire",
+  "title": "Voltaire",
+  "subtitle": "Reason, Tolerance, and the Enlightenment Fight Against Religious Fanaticism, Including Candide and the Philosophical Dictionary",
+  "series": "Western Philosophy Series",
+  "order": 8,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0H3LVNV11"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=_ZjkEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "david-hume",
+  "title": "David Hume",
+  "subtitle": "The Great Skeptic and His Philosophy of Human Nature, Including the Problem of Induction, the Is-Ought Gap, and the Radical Claim That Reason Is the Slave of the Passions",
+  "series": "Western Philosophy Series",
+  "order": 9,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX3CLR1K"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEBanTLdeM"
+   },
+   {
+    "label": "Other stores",
+    "url": "https://books2read.com/u/ba7z5x"
+   }
+  ],
+  "cover": "/assets/covers/david-hume.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "jean-jacques-rousseau",
+  "title": "Jean-Jacques Rousseau",
+  "subtitle": "A Beginner's Guide to the Revolutionary Thinker and His Theories of the General Will, the Noble Savage, and How Civilization Corrupts Natural Goodness",
+  "series": "Western Philosophy Series",
+  "order": 10,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GNKJ19H9"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=5YDBEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "mary-wollstonecraft",
+  "title": "Mary Wollstonecraft",
+  "subtitle": "The Mother of Feminist Philosophy and Her Revolutionary Argument for Women's Equality, Including the Radical Claim That Reason Knows No Sex",
+  "series": "Western Philosophy Series",
+  "order": 11,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GXQY5JYF"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6lWHVyM"
+   }
+  ],
+  "cover": "/assets/covers/mary-wollstonecraft.jpg",
+  "cover_h": 193
+ },
+ {
+  "slug": "ralph-waldo-emerson",
+  "title": "Ralph Waldo Emerson",
+  "subtitle": "The Founder of American Transcendentalism and His Philosophy of Self-Reliance, the Over-Soul, and the Doctrine of the Sovereign Individual That Shaped the American Mind",
+  "series": "Western Philosophy Series",
+  "order": 12,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6FQxVpM"
+   }
+  ],
+  "cover": "/assets/covers/ralph-waldo-emerson.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "henry-david-thoreau",
+  "title": "Henry David Thoreau",
+  "subtitle": "The Walden Experiment, the Argument for Civil Disobedience, and His Vision of Deliberate Living, Wildness, and the Higher Law of Conscience",
+  "series": "Western Philosophy Series",
+  "order": 13,
+  "links": [
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=bFzkEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/henry-david-thoreau.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "bertrand-russell",
+  "title": "Bertrand Russell",
+  "subtitle": "A Beginner's Guide to the Mathematical Philosopher and His Contributions to Logic, Philosophy of Language, and His Passionate Defense of Rationalism and Social Justice",
+  "series": "Western Philosophy Series",
+  "order": 14,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GMKDDDZX"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEAaQzADOM"
+   }
+  ],
+  "cover": "/assets/covers/bertrand-russell.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "martin-heidegger",
+  "title": "Martin Heidegger",
+  "subtitle": "The Philosopher of Being and His Revolutionary Investigation into Existence, Time, and the Forgotten Question at the Heart of Western Thought",
+  "series": "Western Philosophy Series",
+  "order": 15,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GYGZFX7B"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=xrDTEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "simone-weil",
+  "title": "Simone Weil",
+  "subtitle": "The Mystical Philosopher and Her Profound Reflections on Suffering, Attention, and the Need for Roots in an Age of Uprootedness",
+  "series": "Western Philosophy Series",
+  "order": 16,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX2XB81Z"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDa9mG2qM"
+   }
+  ],
+  "cover": "/assets/covers/simone-weil.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "albert-camus",
+  "title": "Albert Camus",
+  "subtitle": "The Absurd, the Rebel, and the Philosophical Struggle for Human Dignity in a Godless World",
+  "series": "Western Philosophy Series",
+  "order": 17,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX315DQN"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6iUvJ4M"
+   }
+  ],
+  "cover": "/assets/covers/albert-camus.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "john-rawls",
+  "title": "John Rawls",
+  "subtitle": "Justice as Fairness, the Original Position, and the Veil of Ignorance in a Theory of Justice",
+  "series": "Western Philosophy Series",
+  "order": 18,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0H3LXNVDL"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6KSJpiM"
+   }
+  ],
+  "cover": "/assets/covers/john-rawls.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "cynicism",
+  "title": "Cynicism",
+  "subtitle": "A Beginner's Guide to the Radical Philosophy of Living According to Nature, Rejecting Convention, and the Shameless Pursuit of Virtue from Diogenes to Crates",
+  "series": "The Stoic & Ancient Life",
+  "order": 0,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GSX468S4"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=KPnYEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "stoicism",
+  "title": "Stoicism",
+  "subtitle": "A Beginner's Guide to the Ancient Art of Inner Freedom, from Zeno to Marcus Aurelius, Including the Dichotomy of Control and the Practice of Living According to Nature",
+  "series": "The Stoic & Ancient Life",
+  "order": 1,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GP7NRV74"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAECavAn8gM"
+   }
+  ],
+  "cover": "/assets/covers/stoicism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "seneca",
+  "title": "Seneca",
+  "subtitle": "Stoic Wisdom on Time, Fortune, and the Art of Living Well, Including Letters to Lucilius and On the Shortness of Life",
+  "series": "The Stoic & Ancient Life",
+  "order": 2,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0H37VRKZH"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=C4DkEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "marcus-aurelius",
+  "title": "Marcus Aurelius",
+  "subtitle": "The Philosopher-Emperor and His Meditations on Duty, Impermanence, and the Inner Citadel, Including the Stoic Art of Living with Purpose in a World Beyond Our Control",
+  "series": "The Stoic & Ancient Life",
+  "order": 3,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GWVMMC2R"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDaDlZOnM"
+   }
+  ],
+  "cover": "/assets/covers/marcus-aurelius.jpg",
+  "cover_h": 180,
+  "featured": true
+ },
+ {
+  "slug": "skepticism",
+  "title": "Skepticism",
+  "subtitle": "A Beginner's Guide to the Ancient Art of Suspending Judgment, Including the Ten Modes and the Search for Peace of Mind",
+  "series": "The Stoic & Ancient Life",
+  "order": 4,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GNZ9D9LP"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=hPLBEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/skepticism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "the-enlightenment",
+  "title": "The Enlightenment",
+  "subtitle": "A Beginner's Guide to the Age of Reason and Its Revolutionary Vision of Human Progress, Including Religious Tolerance, Natural Rights, and the Dare to Think for Yourself",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 0,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GNNBV6D5"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAECauEf4zM"
+   }
+  ],
+  "cover": "/assets/covers/the-enlightenment.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "rationalism",
+  "title": "Rationalism",
+  "subtitle": "A Beginner's Guide to the Philosophy of Innate Ideas and the Power of Reason, from Descartes to Leibniz, Including the Method of Doubt and the Search for Certain Knowledge",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 1,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GSRNX79D"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=y37kEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/rationalism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "empiricism",
+  "title": "Empiricism",
+  "subtitle": "The Philosophy of Experience and Observation, from Locke to Hume, Including the Blank Slate, the Problem of Induction, and the Limits of Knowledge",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 2,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GSRTFGP3"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=1enLEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "classical-liberalism",
+  "title": "Classical Liberalism",
+  "subtitle": "A Beginner's Guide to the Political Philosophy of Individual Liberty, Limited Government, and Natural Rights, from Locke to Mill, Including the Social Contract and the Harm Principle",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 3,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GNMQD864"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=TaTBEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/classical-liberalism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "german-idealism",
+  "title": "German Idealism",
+  "subtitle": "The Philosophy of Mind, Freedom, and History, from Kant to Hegel, Including the Critique of Pure Reason, the Dialectic, and the Unfolding of Spirit",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 4,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GSK83NV2"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=YezLEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "utilitarianism",
+  "title": "Utilitarianism",
+  "subtitle": "A Beginner's Guide to the Philosophy of the Greatest Happiness for the Greatest Number, Including the Hedonic Calculus, the Harm Principle, and the Expanding Circle of Moral Concern",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 5,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPN7GH16"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6zSCNiM"
+   }
+  ],
+  "cover": "/assets/covers/utilitarianism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "transcendentalism",
+  "title": "Transcendentalism",
+  "subtitle": "The American Philosophy of Self-Reliance and the Divinity of Nature, from Emerson and Thoreau to Margaret Fuller, and Its Vision of Intuition and the Over-Soul",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 6,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6TWENyM"
+   }
+  ],
+  "cover": "/assets/covers/transcendentalism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "nihilism",
+  "title": "Nihilism",
+  "subtitle": "The Philosophy of Meaninglessness, the Death of God, and the Crisis of Values, from Turgenev to Nietzsche, Including the Challenge of Living Without Foundations",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 7,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GS6C6HQP"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=h-zLEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/nihilism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "marxism",
+  "title": "Marxism",
+  "subtitle": "A Beginner's Guide to the Philosophy of Historical Materialism, Class Struggle, and Human Emancipation, Including Alienation, Ideology, and the Critique of Capitalism",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 8,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GR1KMXK7"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6ZWQlzM"
+   }
+  ]
+ },
+ {
+  "slug": "pragmatism",
+  "title": "Pragmatism",
+  "subtitle": "A Beginner's Guide to the Distinctly American Philosophy of Practical Consequences, from Peirce to Dewey, Including the Will to Believe, Truth as What Works, and the Experimental Method",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 9,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GRVGTM6T"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6FTNVmM"
+   }
+  ]
+ },
+ {
+  "slug": "phenomenology",
+  "title": "Phenomenology",
+  "subtitle": "A Beginner's Guide to the Study of Consciousness and Lived Experience, from Husserl to Merleau-Ponty, Including the Method of Bracketing and the Return to the Things Themselves",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 10,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GRWH9N4G"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=t13kEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "analytic-philosophy",
+  "title": "Analytic Philosophy",
+  "subtitle": "The Philosophy of Logic, Language, and Clarity, Including the Linguistic Turn, Logical Positivism, and the Dissolution of Philosophical Problems",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 11,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GRH6CK2R"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEBabHwsNM"
+   }
+  ]
+ },
+ {
+  "slug": "existentialism",
+  "title": "Existentialism",
+  "subtitle": "A Beginner's Guide to the Philosophy of Freedom, Authenticity, and the Burden of Creating Meaning, from Kierkegaard to Camus, Including Anxiety, Absurdity, and Radical Responsibility",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 12,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPDL5D97"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAECaUmwS5M"
+   }
+  ]
+ },
+ {
+  "slug": "humanism",
+  "title": "Humanism",
+  "subtitle": "The Philosophy of Human Dignity, Reason, and Flourishing, from Protagoras and Cicero Through the Renaissance to the Modern Secular Vision of a Life Without Gods but Not Without Meaning",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 13,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX34P52R"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDaTjgO8M"
+   }
+  ]
+ },
+ {
+  "slug": "critical-theory",
+  "title": "Critical Theory",
+  "subtitle": "A Beginner's Guide to the Frankfurt School and Its Critique of Modern Society, Including the Culture Industry, the Authoritarian Personality, and Communicative Reason",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 14,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GR5M3CFX"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=7vjYEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "postmodernism",
+  "title": "Postmodernism",
+  "subtitle": "A Beginner's Guide to the Philosophy of Deconstruction, Power, and the End of Grand Narrative, Including the Critique of Truth, the Death of the Author, and the Politics of Difference",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 15,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GQVC4S78"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=AWXkEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/postmodernism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "logic",
+  "title": "Logic",
+  "subtitle": "The Philosophy of Reasoning, Including Validity, Paradox, and the Foundations of Rational Thought, from Aristotle's Syllogism to Gödel's Incompleteness Theorem",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 16,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GWSB1SQY"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=IEPYEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "metaphysics",
+  "title": "Metaphysics",
+  "subtitle": "The Deepest Questions of Reality, Including the Nature of Existence, Free Will, Time, Causation, and Whether the World Is What It Appears to Be",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 17,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GTQQ2T3L"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=UenLEQAAQBAJ"
+   }
+  ]
+ },
+ {
+  "slug": "epistemology",
+  "title": "Epistemology",
+  "subtitle": "The Philosophy of Knowledge, Including the Gettier Problem, the Challenge of Skepticism, the Foundations of Justification, and the Question of What We Can Really Know",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 18,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GHQNK77N"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEBawjqCcM"
+   }
+  ],
+  "cover": "/assets/covers/epistemology.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "ethics",
+  "title": "Ethics",
+  "subtitle": "",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 19,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPP1FWL2"
+   }
+  ]
+ },
+ {
+  "slug": "aesthetics",
+  "title": "Aesthetics",
+  "subtitle": "The Philosophy of Art, Beauty, and the Sublime, Including the Nature of Taste, the Meaning of Artistic Truth, and the Question of Whether Beauty Is in the Eye of the Beholder",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 20,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX316FQ8"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDacQgxwM"
+   }
+  ]
+ },
+ {
+  "slug": "philosophy-of-mind",
+  "title": "Philosophy of Mind",
+  "subtitle": "A Beginner's Guide to the Great Debates over Consciousness, Free Will, and the Relationship Between Mind and Body, Including the Hard Problem and the Zombie Argument",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 21,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPX2Z2H9"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAECaHgNeiM"
+   }
+  ]
+ },
+ {
+  "slug": "free-will-and-determinism",
+  "title": "Free Will and Determinism",
+  "subtitle": "The Oldest Debate in Philosophy, Including the Problem of Moral Responsibility, the Challenge of Neuroscience, and the Question of Whether Your Choices Are Truly Your Own",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 22,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX1DKKTY"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6aVMp-M"
+   }
+  ],
+  "cover": "/assets/covers/free-will-and-determinism.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "philosophy-of-religion",
+  "title": "Philosophy of Religion",
+  "subtitle": "The Great Debates over God, Faith, and the Limits of Reason, Including the Problem of Evil, Pascal's Wager, and the Meaning of Religious Experience",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 23,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GT5FVG2J"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=X-nLEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/philosophy-of-religion.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "political-philosophy",
+  "title": "Political Philosophy",
+  "subtitle": "A Beginner's Guide to the Great Debates over Justice, Power, and the Good Society, Including Liberty, Equality, and the Limits of Authority",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 24,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPM4RWMR"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAECa-ni68M"
+   }
+  ],
+  "cover": "/assets/covers/political-philosophy.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "social-contract-theory",
+  "title": "Social Contract Theory",
+  "subtitle": "A Beginner's Guide to the Philosophy of Political Legitimacy and Consent, from Hobbes to Rawls, Including the State of Nature, the General Will, and the Veil of Ignorance",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 25,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GQ4MD6Z1"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6VVMV-M"
+   }
+  ],
+  "cover": "/assets/covers/social-contract-theory.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "social-philosophy",
+  "title": "Social Philosophy",
+  "subtitle": "The Philosophy of Society, Including Social Construction, Collective Identity, the Nature of Institutions, and the Question of What Holds Human Communities Together",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 26,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX35NJ22"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6lSvVgM"
+   }
+  ],
+  "cover": "/assets/covers/social-philosophy.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "philosophy-of-science",
+  "title": "Philosophy of Science",
+  "subtitle": "The Foundations of Scientific Knowledge, Including the Demarcation Problem, Falsification, Paradigm Shifts, and the Debate over Whether Science Discovers Truth",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 27,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GT95WLXK"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=VenLEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/philosophy-of-science.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "feminism-in-philosophy",
+  "title": "Feminism in Philosophy",
+  "subtitle": "A Beginner's Guide to the Philosophical Foundations of Women's Equality, Including Liberal Feminism, the Ethics of Care, and the Social Construction of Gender",
+  "series": "Beginner's Guide to Philosophical Movements",
+  "order": 28,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GPYZMNG7"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6KWBpyM"
+   }
+  ],
+  "cover": "/assets/covers/feminism-in-philosophy.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "the-first-question",
+  "title": "The First Question",
+  "subtitle": "What Philosophy Is, How It Works, and Why the Questions It Asks About Existence, Knowledge, Morality, and Meaning Are the Most Important Questions Human Beings Have Ever Posed",
+  "series": "The Foundations of Philosophy",
+  "order": 0,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GHRMLM4N"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=Vd3XEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/the-first-question.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "the-arc-of-western-thought",
+  "title": "The Arc of Western Thought",
+  "subtitle": "The Story of Philosophy from the Ancient Greeks Through the Medieval Synthesis and the Enlightenment to the Modern Crisis of Meaning",
+  "series": "The Foundations of Philosophy",
+  "order": 1,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GZKMN3KC"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6DXpN0M"
+   }
+  ],
+  "cover": "/assets/covers/the-arc-of-western-thought.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "thinking-like-a-philosopher",
+  "title": "Thinking Like a Philosopher",
+  "subtitle": "How to Reason Clearly, Question Assumptions, Evaluate Arguments, and Think for Yourself Using Thought Experiments and Logic",
+  "series": "The Foundations of Philosophy",
+  "order": 2,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GZKHNCR6"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=AwXdEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/thinking-like-a-philosopher.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-is-real",
+  "title": "What Is Real?",
+  "subtitle": "Philosophy's Enduring Inquiry into Existence, from Plato's Forms and Aristotle's Substance Through Materialism and Idealism to the Contemporary Debates",
+  "series": "The Foundations of Philosophy",
+  "order": 3,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GZNSMM3K"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=K5nkEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/what-is-real.jpg",
+  "cover_h": 180,
+  "featured": true
+ },
+ {
+  "slug": "what-can-we-know",
+  "title": "What Can We Know?",
+  "subtitle": "Philosophy's Inquiry into Knowledge, from Socratic Ignorance and the Problem of Skepticism Through the Rationalist-Empiricist Debate to Justification and Belief",
+  "series": "The Foundations of Philosophy",
+  "order": 4,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0H12X51CF"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6zTCNmM"
+   }
+  ],
+  "cover": "/assets/covers/what-can-we-know.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-should-we-do",
+  "title": "What Should We Do?",
+  "subtitle": "Philosophy's Search for the Foundations of Right Action, from Aristotle's Virtues and the Stoic Good Through Kant and Utilitarianism to Modern Ethics",
+  "series": "The Foundations of Philosophy",
+  "order": 5,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6TXEN2M"
+   }
+  ],
+  "cover": "/assets/covers/what-should-we-do.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-is-justice",
+  "title": "What Is Justice?",
+  "subtitle": "Philosophy's Quest to Understand Fairness, Rights, and the Good Society, from Plato's Republic Through the Social Contract to Rawls and the Global Present",
+  "series": "The Foundations of Philosophy",
+  "order": 6,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6gRvBsM"
+   }
+  ],
+  "cover": "/assets/covers/what-is-justice.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-makes-something-beautiful",
+  "title": "What Makes Something Beautiful?",
+  "subtitle": "Philosophy's Inquiry into Art, Taste, and the Sublime, from Plato and Aristotle Through Kant's Aesthetic Judgment to the Question of Objectivity",
+  "series": "The Foundations of Philosophy",
+  "order": 7,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0H29NNJ28"
+   },
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEC6QV8B9M"
+   }
+  ],
+  "cover": "/assets/covers/what-makes-something-beautiful.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "does-god-exist",
+  "title": "Does God Exist?",
+  "subtitle": "Philosophy's Most Consequential Question, from the Classical Arguments and the Problem of Evil Through the Death of God to Faith, Reason, and Human Understanding",
+  "series": "The Foundations of Philosophy",
+  "order": 8,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX34JRXF"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=pEPYEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/does-god-exist.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "the-problem-of-evil",
+  "title": "The Problem of Evil",
+  "subtitle": "How Thinkers from Epicurus and Augustine to Hannah Arendt and Carl Jung Have Confronted Suffering, Cruelty, and the Darkness Within Human Nature",
+  "series": "The Foundations of Philosophy",
+  "order": 9,
+  "links": [
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=yhDkEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/the-problem-of-evil.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-is-consciousness",
+  "title": "What Is Consciousness?",
+  "subtitle": "Philosophy's Deepest Inquiry into the Mind, from Ancient Meditations on the Self Through Descartes and Phenomenology to the Hard Problem and AI",
+  "series": "The Foundations of Philosophy",
+  "order": 10,
+  "links": [
+   {
+    "label": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GX32T274"
+   },
+   {
+    "label": "Google Play",
+    "url": "https://play.google.com/store/books/details?id=zEPYEQAAQBAJ"
+   }
+  ],
+  "cover": "/assets/covers/what-is-consciousness.jpg",
+  "cover_h": 180
+ },
+ {
+  "slug": "what-is-the-meaning-of-life",
+  "title": "What Is the Meaning of Life?",
+  "subtitle": "Philosophy's Inquiry into Purpose, Value, and the Good Life, from Aristotle and the Stoics Through Existentialism to the Path Beyond Suffering",
+  "series": "The Foundations of Philosophy",
+  "order": 11,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDaSWkJoM"
+   }
+  ]
+ },
+ {
+  "slug": "philosophy-for-the-living",
+  "title": "Philosophy for the Living",
+  "subtitle": "How the Great Thinkers Illuminate the Questions We Actually Face, from Friendship and Death to Work, Love, Happiness, and Living Well",
+  "series": "The Foundations of Philosophy",
+  "order": 12,
+  "links": [
+   {
+    "label": "Google Play audiobook",
+    "url": "https://play.google.com/store/audiobooks/details?id=AQAAAEDaCRRJ3M"
+   }
+  ],
+  "cover": "/assets/covers/philosophy-for-the-living.jpg",
+  "cover_h": 180
+ }
+]
