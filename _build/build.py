@@ -18,7 +18,7 @@ CONFIG = json.loads((BUILD / "config.json").read_text())
 BOOKS = json.loads((BUILD / "books.json").read_text())
 e = html.escape
 
-NAV = [("Books", "/books/"), ("About", "/about/"), ("Contact", "/contact/")]
+NAV = [("Start here", "/start-here/"), ("Letters", "/letters/"), ("Books", "/books/"), ("About", "/about/"), ("Contact", "/contact/")]
 FOOT_NAV = NAV + [("Privacy", "/privacy/")]
 
 
@@ -181,12 +181,12 @@ def build_home():
     body = f"""<div class="wrap">
  <section class="hero" aria-labelledby="h-hero">
   <div>
-   <p class="ao-label"><span class="ao-marker" aria-hidden="true"></span>Western Philosophy Series</p>
-   <h1 class="display" id="h-hero" style="margin-top:var(--space-5)">The great questions, and the minds that asked them.</h1>
+   <p class="ao-label"><span class="ao-marker" aria-hidden="true"></span>Philosophy with Alex Omberg</p>
+   <h1 class="display" id="h-hero" style="margin-top:var(--space-5)">Big questions. Clear explanations. Room to disagree.</h1>
    <p class="lead" style="margin-top:var(--space-6)">{e(CONFIG['home_lead'])}</p>
    <div class="actions" style="margin-top:var(--space-7)">
-    <a class="ao-button" href="/books/">Browse the books</a>
-    <a class="ao-button ao-button--secondary" href="#newsletter">Get the newsletter</a>
+    <a class="ao-button" href="/start-here/">Find your starting point</a>
+    <a class="ao-button ao-button--secondary" href="/letters/">Read the letters</a>
    </div>
   </div>
   <div class="hero__owl"><img src="/assets/img/owl-ink.svg" alt="" width="150" height="294"></div>
@@ -197,7 +197,7 @@ def build_home():
  <div class="wrap signup-band">
   <div class="stack-tight">
    <span class="ao-rule" aria-hidden="true"></span>
-   <h2 class="title-2" id="h-news" style="margin-top:var(--space-5)">Essays and new volumes, by email.</h2>
+   <h2 class="title-2" id="h-news" style="margin-top:var(--space-5)">A question worth thinking about, every other week.</h2>
    <p style="margin:var(--space-4) 0 0;max-width:var(--measure);color:var(--text-secondary)">{e(CONFIG['newsletter_blurb'])}</p>
   </div>
   {signup_form('home')}
@@ -247,6 +247,64 @@ def build_books():
     ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": "Books by Alex Omberg", "itemListElement": ld_items}] if ld_items else []
     write("books/index.html", page("/books/", "Books", CONFIG["books_description"], body, current="/books/", extra_ld=ld))
 
+
+
+def published_letters():
+    letters = json.loads((BUILD / "letters.json").read_text())
+    published = []
+    slugs = set()
+    for letter in letters:
+        slug = letter["slug"]
+        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug) or slug in slugs:
+            raise ValueError(f"Invalid or duplicate letter slug: {slug}")
+        slugs.add(slug)
+        if letter.get("status") == "published":
+            date.fromisoformat(letter["date"])
+            published.append(letter)
+    return sorted(published, key=lambda x: x["date"], reverse=True)
+
+
+def build_reading_guide():
+    guide = markdown.markdown((BUILD / "start-here.md").read_text())
+    body = f"""<div class="wrap">
+ <div class="page-head stack-tight"><h1 class="title-1">Where would you like to start?</h1>
+ <p class="lead">Pick a question that already has your attention. You can begin there.</p></div>
+ <div class="ao-prose reading-guide">{guide}</div>
+</div>"""
+    write("start-here/index.html", page("/start-here/", "Where to start",
+          "Find a starting point in philosophy through reasoning, freedom, fairness, art or attention.", body, current="/start-here/"))
+
+
+def build_letters():
+    letters = published_letters()
+    active_paths = {ROOT / "letters" / x["slug"] / "index.html" for x in letters}
+    stale = set((ROOT / "letters").glob("*/index.html")) - active_paths
+    if stale:
+        raise ValueError("Previously generated letter pages remain; review and remove them explicitly: " + ", ".join(str(p.relative_to(ROOT)) for p in sorted(stale)))
+    entries = []
+    for letter in letters:
+        slug, title = letter["slug"], letter["title"]
+        path = f"/letters/{slug}/"
+        text = markdown.markdown((BUILD / "letters" / (slug + ".md")).read_text())
+        sources = markdown.markdown(letter["sources"])
+        metadata = {"@context": "https://schema.org", "@type": "Article", "headline": title,
+                    "description": letter["description"], "datePublished": letter["date"],
+                    "author": {"@id": SITE_URL + "/#author"}, "mainEntityOfPage": SITE_URL + path}
+        body = f"""<div class="wrap letter-page"><article>
+ <header class="page-head stack-tight"><a class="ao-link" href="/letters/">All letters</a>
+ <h1 class="title-1">{e(title)}</h1><p class="muted">By Alex Omberg · <time datetime="{e(letter['date'])}">{e(letter['date'])}</time></p></header>
+ <div class="ao-prose">{text}<aside class="source-note" aria-label="Sources"><h2>Sources and further reading</h2>{sources}</aside></div>
+ </article><section class="letter-signup" aria-labelledby="letter-signup-title"><h2 class="title-2" id="letter-signup-title">Continue the conversation</h2>
+ <p>{e(CONFIG['newsletter_blurb'])}</p>{signup_form('letter')}</section></div>"""
+        write(f"letters/{slug}/index.html", page(path, title, letter["description"], body, current="/letters/", extra_ld=[metadata]).replace('property="og:type" content="website"', 'property="og:type" content="article"'))
+        entries.append(f'<li><h2 class="title-2"><a class="ao-link" href="{path}">{e(title)}</a></h2><p>{e(letter["description"])}</p><time datetime="{e(letter["date"])}">{e(letter["date"])}</time></li>')
+    archive = '<ul class="letter-list">' + ''.join(entries) + '</ul>' if entries else '<p class="ao-prose">The first letter in this series is on its way. Subscribe below to receive it.</p>'
+    body = f"""<div class="wrap">
+ <div class="page-head stack-tight"><h1 class="title-1">Letters from Alex</h1>
+ <p class="lead">One philosophical question, an argument to consider, and room for your reply.</p></div>
+ {archive}<section class="letter-signup" aria-labelledby="letters-signup-title"><h2 class="title-2" id="letters-signup-title">A letter every other week</h2>
+ <p>{e(CONFIG['newsletter_blurb'])}</p>{signup_form('letters')}</section></div>"""
+    write("letters/index.html", page("/letters/", "Letters", "Fortnightly letters from Alex Omberg on philosophical questions, with clear explanations and room to disagree.", body, current="/letters/"))
 
 def build_about():
     body = f"""<div class="wrap">
@@ -305,7 +363,7 @@ def build_404():
 
 
 def build_meta():
-    pages = ["/", "/books/", "/about/", "/contact/"]
+    pages = ["/", "/start-here/", "/letters/", "/books/", "/about/", "/contact/"] + ["/letters/" + x["slug"] + "/" for x in published_letters()]
     today = date.today().isoformat()
     urls = "".join(f"<url><loc>{SITE_URL}{p}</loc><lastmod>{today}</lastmod></url>" for p in pages)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
@@ -315,5 +373,5 @@ def build_meta():
 
 
 if __name__ == "__main__":
-    build_home(); build_books(); build_about(); build_contact(); build_privacy(); build_404(); build_meta()
+    build_home(); build_reading_guide(); build_letters(); build_books(); build_about(); build_contact(); build_privacy(); build_404(); build_meta()
     print(f"Built {len(BOOKS)} books into {ROOT}")

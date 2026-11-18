@@ -29,6 +29,7 @@
   --focus-ring: var(--orange);
   --link-underline: var(--orange);
 
+  --font-sans: Inter, Arial, sans-serif;
   --font-serif: Literata, Georgia, "Times New Roman", serif;
 
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;
@@ -56,7 +57,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--surface); color: var(--text);
-  font-family: var(--font-serif); font-optical-sizing: auto;
+  font-family: var(--font-sans); font-optical-sizing: auto;
   font-size: 18px; line-height: 1.65;
   -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
   min-height: 100vh; display: flex; flex-direction: column;
@@ -162,7 +163,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .ao-button {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
   min-height: 48px; padding: 12px 24px;
-  font-family: var(--font-serif); font-size: 16px; line-height: 1.2; font-weight: 600; letter-spacing: 0.02em;
+  font-family: var(--font-sans); font-size: 16px; line-height: 1.2; font-weight: 600; letter-spacing: 0.02em;
   background: var(--accent); color: var(--on-accent);
   border: var(--stroke-rule) solid var(--accent); border-radius: 0;
   text-decoration: none; cursor: pointer;
@@ -226,7 +227,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .ao-signup__row { display: flex; gap: var(--space-2); flex-wrap: wrap; }
 .ao-input {
   flex: 1 1 240px; min-height: 48px; padding: 10px 14px; min-width: 0;
-  font-family: var(--font-serif); font-size: 17px; color: var(--text);
+  font-family: var(--font-sans); font-size: 17px; color: var(--text);
   background: var(--surface); border: 1.5px solid var(--control-border); border-radius: 0;
 }
 .ao-input::placeholder { color: var(--text-muted); }
@@ -285,3 +286,22 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .series-toc ul { list-style: none; margin: var(--space-3) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-5); }
 .series-toc li { font-size: 16px; }
 .series-toc .muted { font-size: 15px; font-variant-numeric: tabular-nums; margin-left: 2px; }
+
+/* Public voice and typography from Brand System v6. */
+@font-face { font-family: Inter; src: url('/assets/fonts/Inter-Latin-VF.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+h1, h2, h3, .ao-wordmark { font-family: var(--font-serif); }
+.ao-wordmark { font-size: 22px; font-weight: 600; letter-spacing: 0; margin-right: 0; text-transform: none; line-height: 1.2; }
+.ao-nav a { text-transform: none; letter-spacing: 0; font-size: 15px; min-height: 44px; display: inline-flex; align-items: center; }
+.ao-label { text-transform: none; letter-spacing: 0.02em; font-size: 14px; }
+.display { line-height: 1.08; }
+.ao-prose { max-width: 62ch; }
+.reading-guide { padding-bottom: var(--space-9); }
+.reading-guide h2:first-child { margin-top: 0; }
+.letter-page { max-width: 850px; }
+.letter-signup { margin: var(--space-8) 0; padding-top: var(--space-7); border-top: 1px solid var(--rule); }
+.letter-signup > p { max-width: 62ch; }
+.source-note { border-top: 1px solid var(--rule); margin-top: var(--space-7); padding-bottom: var(--space-5); }
+.letter-list { padding: 0; list-style: none; max-width: 62ch; }
+.letter-list li { padding: var(--space-6) 0; border-top: 1px solid var(--rule); }
+.letter-list time { color: var(--text-muted); font-size: 15px; }
+@media (max-width: 480px) { .ao-nav { gap: 8px 18px; } .display { font-size: 40px; } }
